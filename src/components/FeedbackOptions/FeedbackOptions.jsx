@@ -15,4 +15,9 @@ const FeedbackOptions = ({ options, changeValuesRating }) => {
     );
   });
 };
+
+FeedbackOptions.propTypes = {
+  changeValuesRating: PropTypes.any,
+  options: PropTypes.any,
+};
 export default FeedbackOptions;
