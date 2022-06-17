@@ -1,0 +1,39 @@
+.section {
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid rgb(130, 144, 158);
+}
+.section:not(:first-child) {
+  border-top: none;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+.section:first-child {
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+}
+.title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.title::after,
+.title::before {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  justify-content: center;
+  flex-direction: column;
+
+  content: '';
+  background-image: url(./cofe.png);
+
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

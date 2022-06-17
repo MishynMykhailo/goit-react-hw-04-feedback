@@ -1,0 +1,15 @@
+.ul {
+  padding: 0px;
+}
+
+.li {
+  list-style: none;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+  border-top: 1px solid rgb(130, 144, 158);
+}
+
+.li:not(:first-child) {
+  margin-top: 15px;
+}
